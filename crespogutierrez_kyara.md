@@ -1,9 +1,9 @@
-###February 6th, 2026
+###February 6th, 2026###
 
-#tab key will fill out command automatically with the information provided
+#tab key will fill out command automatically with the information provided#
 e.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 
-#pwd = print working directory, aka a folder
+#pwd = print working directory, aka a folder#
 "/home/users/kac1224/gen711-811" means that pwd gen711 is inside pwd kac, which is insie pwd users, inside pwd home.
 
 #ls = list
