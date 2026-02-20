@@ -3,7 +3,7 @@
 ## Tab key will fill out command automatically with the information provided#
 E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 
-## pwd = print working directory, aka a folder#
+## pwd = print working directory, aka a folder
 "/home/users/kac1224/gen711-811" means that pwd gen711 is inside pwd kac, which is insie pwd users, inside pwd home.
 
 ## ls = list
@@ -33,3 +33,7 @@ E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 + wc (without -l) will give out: lines, words, characters
 
 ## [command] > file-[name] = will pull up results from command into a new file
+
+# **February 13th, 2026**
+## Hidden files and directories start with . and can be viewed using ls -a.
+## The commands with "*" are using a "wildcard"
