@@ -4,14 +4,15 @@
 E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 
 ## pwd = print working directory, aka a folder
-"/home/users/kac1224/gen711-811" means that pwd gen711 is inside pwd kac, which is insie pwd users, inside pwd home.
+"/home/users/kac1224/gen711-811" means that pwd gen711 is inside pwd kac, which is inside pwd users, inside pwd home.
 
 ## ls = list
 + Lists pwd's and files within current pwd.
 + ls -F = gives out empty pwd's.
 + man ls = pulls out entire ls manual, but google might be better to find specific commands.
 + ls *[wanted search] = lists results that contain wanted search at the *end* **ONLY**.
-+ ls [wanted search]* =lists results that contain wanted search at the *beginning* **ONLY**.
++ ls [wanted search]* = lists results that contain wanted search at the *beginning* **ONLY**.
++ ls -l = lists files within directory, shows file size, creation date and time, and file titles.
 
 ## ctrl z = cancels command, does not undo
 
@@ -37,3 +38,15 @@ E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 # **February 13th, 2026**
 ## Hidden files and directories start with . and can be viewed using ls -a.
 ## The commands with "*" are using a "wildcard"
+## cp [file from which you're copying] [new file to which you're copying to] = copies file's contents into a new file, aka makes a copy
+
+# **February 20th, 2026**
+## chmod -w [file you want to change permissions on] = removes writing permission from a file
++ chmod ug+rwx [file] = grants reading, writing, and executing permissions to the user and the group.
+
+## rm = remove
+
+## mv [file old name] [file new name] = rename a file
+
+## **conda activate genomics = allows anaconda to work in bash for certain genomics programs**
+**conda deactivate = leaves anaconda environment**
