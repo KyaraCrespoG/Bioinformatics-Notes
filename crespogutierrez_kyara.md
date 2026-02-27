@@ -24,16 +24,19 @@ E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 + cd ~ = brings you to home directory
 
 ## head + file = opens up only the first few lines of the file
++ head -n [number of lines you want to display] + file = will print out the first, asked number of lines
 
-## grep + '[wanted search]' = looks up wanted search among the entire pwd you are currently in
+## grep + [wanted search] = looks up wanted search among the entire pwd you are currently in
 + Sort of like a ctrl+F, but for coding
 + E.g. grep '@' will look for any "at symbols"
 + Adding "^" before the wanted search will give out results with the wanted search at the beginning of the line **ONLY**.
++ grep -B[number] -A[number] [wanted search] + [file] = looks up wanted serach within file, and displays the [number] of line Before and After the wanted search.
++ grep -v [unwanted characters] + [file] = prints out the lines within the file that do **NOT** contain the unwanted characters. called "reverse grep"
 
 ## [command] | wc -l = counts the number of lines brought up by the command
 + wc (without -l) will give out: lines, words, characters
 
-## [command] > file-[name] = will pull up results from command into a new file
+## [command] > [file name] = will pull up results from command into a new file
 
 # **February 13th, 2026**
 ## Hidden files and directories start with . and can be viewed using ls -a.
@@ -50,3 +53,21 @@ E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 
 ## **conda activate genomics = allows anaconda to work in bash for certain genomics programs**
 **conda deactivate = leaves anaconda environment**
+
+# **February 27th, 2026**
+
+## less = displays everything on the screen
+
+## Keypoints
+- `grep` is a powerful search tool with many options for customization.
+- `>`, `>>`, and `|` are different ways of redirecting output.
+- `command > file` redirects a command's output to a file.
+- `command >> file` redirects a command's output to a file without overwriting the existing contents of the file. (adds the command to the existing file, combining them)
+- `command_1 | command_2` redirects the output of the first command as input to the second command.
+- `for` loops are used for iteration.
+- `basename` gets rid of repetitive parts of names.
+
+## For loops basic structure:
+- for
+- do
+- done
