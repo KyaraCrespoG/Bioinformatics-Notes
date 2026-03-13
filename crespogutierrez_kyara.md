@@ -3,6 +3,8 @@
 ## Tab key will fill out command automatically with the information provided
 E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 
+## mkdir = make new directory
+
 ## pwd = print working directory, aka a folder
 "/home/users/kac1224/gen711-811" means that pwd gen711 is inside pwd kac, which is inside pwd users, inside pwd home.
 
@@ -30,7 +32,7 @@ E.g. "cd g [press tab]" will fill out automatically with "cd gen711-811"
 + Sort of like a ctrl+F, but for coding
 + E.g. grep '@' will look for any "at symbols"
 + Adding "^" before the wanted search will give out results with the wanted search at the beginning of the line **ONLY**.
-+ grep -B[number] -A[number] [wanted search] + [file] = looks up wanted serach within file, and displays the [number] of line Before and After the wanted search.
++ grep -B[number] -A[number] [wanted search] + [file] = looks up wanted search within file, and displays the [number] of line Before and After the wanted search.
 + grep -v [unwanted characters] + [file] = prints out the lines within the file that do **NOT** contain the unwanted characters. called "reverse grep"
 
 ## [command] | wc -l = counts the number of lines brought up by the command
